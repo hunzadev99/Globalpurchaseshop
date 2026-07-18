@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FoodMart - Free eCommerce Grocery Store HTML Website Template</title>
+    <title>GlobalPurchaseShop - Online Grocery &amp; Everyday Essentials Store</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="">
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="GlobalPurchaseShop - shop fresh groceries, everyday essentials and more, delivered fast.">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -69,6 +69,18 @@
         </symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 15 15">
           <path fill="currentColor" d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"/>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="truck" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M20 8h-3V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h1.18a3 3 0 0 0 5.64 0h4.36a3 3 0 0 0 5.64 0H21a1 1 0 0 0 1-1v-5a1 1 0 0 0-.2-.6l-3-4A1 1 0 0 0 20 8ZM7 18a1 1 0 1 1 1-1a1 1 0 0 1-1 1Zm9 0a1 1 0 1 1 1-1a1 1 0 0 1-1 1Zm4-3h-.78a3 3 0 0 0-5.64 0H9.42a3 3 0 0 0-5.64 0H3V5h12v8a1 1 0 0 0 1 1h4Zm0-4h-3V10h2.5Z"/>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="shield" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5Z"/>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="leaf" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M17 3c-6.6 0-12 5.4-12 12 0 1.1.15 2.16.43 3.17L3 20.6 4.4 22l2.4-2.4c1 .27 2.07.42 3.16.42 6.6 0 12-5.4 12-12V3Z"/>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="quote" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M9.5 8.5C6.5 8.5 4 11 4 14s2 6 5 6c0-3 1-5 3-6-1-1-2.5-2-2.5-5.5ZM19.5 8.5C16.5 8.5 14 11 14 14s2 6 5 6c0-3 1-5 3-6-1-1-2.5-2-2.5-5.5Z"/>
         </symbol>
       </defs>
     </svg>
@@ -144,8 +156,9 @@
           
           <div class="col-sm-4 col-lg-3 text-center text-sm-start">
             <div class="main-logo">
-              <a href="index.html">
-                <img src="images/logo.png" alt="logo" class="img-fluid">
+              <a href="index.html" class="brand-wordmark">
+                <span class="brand-mark"><svg width="26" height="26" viewBox="0 0 24 24"><use xlink:href="#leaf"></use></svg></span>
+                <span class="brand-text">Global<strong>Purchase</strong>Shop</span>
               </a>
             </div>
           </div>
@@ -284,93 +297,139 @@
       </div>
     </header>
     
-    <section class="py-3" style="background-image: url('images/background-pattern.jpg');background-repeat: no-repeat;background-size: cover;">
+    <section class="hero-modern">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <div class="container-fluid">
+        <div class="row align-items-center gy-5">
+
+          <div class="col-lg-6">
+            <div class="hero-copy">
+              <span class="hero-eyebrow">
+                <svg width="16" height="16"><use xlink:href="#leaf"></use></svg>
+                100% Fresh &amp; Trusted Sourcing
+              </span>
+              <h1 class="hero-title">Everyday essentials,<br> delivered <span>fresh</span> to your door.</h1>
+              <p class="hero-subtitle">GlobalPurchaseShop connects you to 20,000+ groceries, drinks and household picks — hand-checked for quality, packed same-day.</p>
+
+              <form class="hero-search d-flex" role="search" action="index.html" method="get">
+                <input type="text" class="form-control" placeholder="Search fruits, snacks, drinks...">
+                <button type="submit" class="btn btn-dark">
+                  <svg width="20" height="20"><use xlink:href="#search"></use></svg>
+                  <span class="d-none d-sm-inline">Search</span>
+                </button>
+              </form>
+
+              <div class="hero-actions">
+                <a href="#" class="btn btn-primary btn-lg rounded-pill px-4">Shop Now</a>
+                <a href="#" class="btn btn-outline-dark btn-lg rounded-pill px-4">Explore Categories</a>
+              </div>
+
+              <div class="hero-trust-row">
+                <div class="hero-trust-item">
+                  <svg width="20" height="20"><use xlink:href="#truck"></use></svg>
+                  <span>Free delivery over $50</span>
+                </div>
+                <div class="hero-trust-item">
+                  <svg width="20" height="20"><use xlink:href="#shield"></use></svg>
+                  <span>Secure checkout</span>
+                </div>
+                <div class="hero-trust-item">
+                  <svg width="20" height="20"><use xlink:href="#star-solid"></use></svg>
+                  <span>4.8/5 from 12k+ orders</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="hero-slide-card">
+                      <span class="hero-slide-badge">100% natural</span>
+                      <img src="images/product-thumb-1.png" class="img-fluid hero-slide-img" alt="Fresh smoothie and summer juice">
+                      <div class="hero-slide-info">
+                        <h3>Fresh Smoothie &amp; Summer Juice</h3>
+                        <p>Cold-pressed daily, zero added sugar.</p>
+                        <a href="#" class="hero-slide-link">Shop Collection <svg width="18" height="18"><use xlink:href="#arrow-right"></use></svg></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="hero-slide-card alt">
+                      <span class="hero-slide-badge">15% off</span>
+                      <img src="images/product-thumb-2.png" class="img-fluid hero-slide-img" alt="Heinz tomato ketchup">
+                      <div class="hero-slide-info">
+                        <h3>Heinz Tomato Ketchup</h3>
+                        <p>Pantry favorite, restocked weekly.</p>
+                        <a href="#" class="hero-slide-link">Shop Collection <svg width="18" height="18"><use xlink:href="#arrow-right"></use></svg></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="hero-slide-card">
+                      <span class="hero-slide-badge">20% off</span>
+                      <img src="images/product-thumb-1.png" class="img-fluid hero-slide-img" alt="Fruits and vegetables">
+                      <div class="hero-slide-info">
+                        <h3>Fruits &amp; Vegetables</h3>
+                        <p>Farm-picked, delivered within hours.</p>
+                        <a href="#" class="hero-slide-link">Shop Collection <svg width="18" height="18"><use xlink:href="#arrow-right"></use></svg></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="hero-stat-chip hero-stat-chip-1">
+                <strong>20,000+</strong>
+                <span>Products in stock</span>
+              </div>
+              <div class="hero-stat-chip hero-stat-chip-2">
+                <strong>45 min</strong>
+                <span>Avg. delivery time</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
+            <div class="banner-ad bg-success-subtle mb-4 mb-md-0" style="background:url('images/ad-image-1.png') no-repeat;background-position: right bottom">
+              <div class="row banner-content p-5">
 
-            <div class="banner-blocks">
-            
-              <div class="banner-ad large bg-info block-1">
-
-                <div class="swiper main-swiper">
-                  <div class="swiper-wrapper">
-                    
-                    <div class="swiper-slide">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories my-3">100% natural</div>
-                          <h3 class="display-4">Fresh Smoothie & Summer Juice</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop Now</a>
-                        </div>
-                        <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-1.png" class="img-fluid">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="swiper-slide">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories mb-3 pb-3">100% natural</div>
-                          <h3 class="banner-title">Fresh Smoothie & Summer Juice</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
-                        </div>
-                        <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-1.png" class="img-fluid">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="swiper-slide">
-                      <div class="row banner-content p-5">
-                        <div class="content-wrapper col-md-7">
-                          <div class="categories mb-3 pb-3">100% natural</div>
-                          <h3 class="banner-title">Heinz Tomato Ketchup</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.</p>
-                          <a href="#" class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1">Shop Collection</a>
-                        </div>
-                        <div class="img-wrapper col-md-5">
-                          <img src="images/product-thumb-2.png" class="img-fluid">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="swiper-pagination"></div>
-
+                <div class="content-wrapper col-md-7">
+                  <div class="categories sale mb-3 pb-3">20% off</div>
+                  <h3 class="banner-title">Fruits &amp; Vegetables</h3>
+                  <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
                 </div>
+
               </div>
-              
-              <div class="banner-ad bg-success-subtle block-2" style="background:url('images/ad-image-1.png') no-repeat;background-position: right bottom">
-                <div class="row banner-content p-5">
-
-                  <div class="content-wrapper col-md-7">
-                    <div class="categories sale mb-3 pb-3">20% off</div>
-                    <h3 class="banner-title">Fruits & Vegetables</h3>
-                    <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="banner-ad bg-danger block-3" style="background:url('images/ad-image-2.png') no-repeat;background-position: right bottom">
-                <div class="row banner-content p-5">
-
-                  <div class="content-wrapper col-md-7">
-                    <div class="categories sale mb-3 pb-3">15% off</div>
-                    <h3 class="item-title">Baked Products</h3>
-                    <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
-                  </div>
-
-                </div>
-              </div>
-
             </div>
-            <!-- / Banner Blocks -->
-              
+          </div>
+          <div class="col-md-6">
+            <div class="banner-ad bg-danger" style="background:url('images/ad-image-2.png') no-repeat;background-position: right bottom">
+              <div class="row banner-content p-5">
+
+                <div class="content-wrapper col-md-7">
+                  <div class="categories sale mb-3 pb-3">15% off</div>
+                  <h3 class="item-title">Baked Products</h3>
+                  <a href="#" class="d-flex align-items-center nav-link">Shop Collection <svg width="24" height="24"><use xlink:href="#arrow-right"></use></svg></a>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1899,6 +1958,120 @@
       </div>
     </section>
 
+    <section class="py-5 overflow-hidden testimonial-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header d-flex flex-wrap justify-content-between mb-5">
+              <div>
+                <span class="section-eyebrow">Loved by shoppers</span>
+                <h2 class="section-title mb-0">What our customers say</h2>
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="swiper-buttons">
+                  <button class="swiper-prev testimonial-carousel-prev btn btn-yellow">❮</button>
+                  <button class="swiper-next testimonial-carousel-next btn btn-yellow">❯</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="testimonial-carousel swiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <svg class="testimonial-quote" width="34" height="34"><use xlink:href="#quote"></use></svg>
+                    <div class="testimonial-stars">
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                    </div>
+                    <p class="testimonial-text">Produce arrives crisp every single time and the app makes reordering my weekly basket painless. GlobalPurchaseShop is now my only grocery stop.</p>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar">AK</div>
+                      <div>
+                        <h6>Ayesha K.</h6>
+                        <span>Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <svg class="testimonial-quote" width="34" height="34"><use xlink:href="#quote"></use></svg>
+                    <div class="testimonial-stars">
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                    </div>
+                    <p class="testimonial-text">Delivery landed in under 40 minutes and every item matched the photos exactly. The checkout is the fastest I've used for groceries.</p>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar">RM</div>
+                      <div>
+                        <h6>Raza M.</h6>
+                        <span>Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <svg class="testimonial-quote" width="34" height="34"><use xlink:href="#quote"></use></svg>
+                    <div class="testimonial-stars">
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                    </div>
+                    <p class="testimonial-text">Prices beat the local market and the weekly deals actually save money. Customer support resolved a missing item within minutes.</p>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar">SF</div>
+                      <div>
+                        <h6>Sana F.</h6>
+                        <span>Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <svg class="testimonial-quote" width="34" height="34"><use xlink:href="#quote"></use></svg>
+                    <div class="testimonial-stars">
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                      <svg width="16" height="16"><use xlink:href="#star-solid"></use></svg>
+                    </div>
+                    <p class="testimonial-text">Packaging keeps everything cold and intact, even in summer. It feels like a proper premium grocery experience at regular prices.</p>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar">BH</div>
+                      <div>
+                        <h6>Bilal H.</h6>
+                        <span>Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="py-5 overflow-hidden">
       <div class="container-fluid">
         <div class="row">
@@ -2245,7 +2418,7 @@
                 <img src="images/phone.png" alt="phone" class="image-float img-fluid">
               </div>
               <div class="col-md-8">
-                <h2 class="my-5">Shop faster with foodmart App</h2>
+                <h2 class="my-5">Shop faster with the GlobalPurchaseShop App</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis. Amet blandit tortor praesent ante vitae. A, enim pretiummi senectus magna. Sagittis sed ptibus liberolectus non et psryroin.</p>
                 <div class="d-flex gap-2 flex-wrap">
                   <img src="images/app-store.jpg" alt="app-store">
@@ -2371,7 +2544,10 @@
 
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="footer-menu">
-              <img src="images/logo.png" alt="logo">
+              <a href="index.html" class="brand-wordmark footer-brand">
+                <span class="brand-mark"><svg width="24" height="24"><use xlink:href="#leaf"></use></svg></span>
+                <span class="brand-text">Global<strong>Purchase</strong>Shop</span>
+              </a>
               <div class="social-links mt-5">
                 <ul class="d-flex list-unstyled gap-2">
                   <li>
@@ -2406,7 +2582,7 @@
 
           <div class="col-md-2 col-sm-6">
             <div class="footer-menu">
-              <h5 class="widget-title">Ultras</h5>
+              <h5 class="widget-title">GlobalPurchaseShop</h5>
               <ul class="menu-list list-unstyled">
                 <li class="menu-item">
                   <a href="#" class="nav-link">About us</a>
@@ -2424,7 +2600,7 @@
                   <a href="#" class="nav-link">Affiliate Programme</a>
                 </li>
                 <li class="menu-item">
-                  <a href="#" class="nav-link">Ultras Press</a>
+                  <a href="#" class="nav-link">Press</a>
                 </li>
               </ul>
             </div>
@@ -2497,7 +2673,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 copyright">
-            <p>© 2023 Foodmart. All rights reserved.</p>
+            <p>© 2026 GlobalPurchaseShop. All rights reserved.</p>
           </div>
           <div class="col-md-6 credit-link text-start text-md-end">
             </div>
@@ -2509,5 +2685,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      // Modern hero + testimonial carousels (kept separate from theme's script.js init)
+      document.addEventListener('DOMContentLoaded', function () {
+        if (typeof Swiper === 'undefined') return;
+
+        new Swiper('.hero-swiper', {
+          loop: true,
+          autoplay: { delay: 4500, disableOnInteraction: false },
+          effect: 'fade',
+          fadeEffect: { crossFade: true },
+          pagination: { el: '.hero-swiper .swiper-pagination', clickable: true }
+        });
+
+        new Swiper('.testimonial-carousel', {
+          slidesPerView: 1,
+          spaceBetween: 24,
+          loop: true,
+          autoplay: { delay: 5000, disableOnInteraction: false },
+          navigation: {
+            nextEl: '.testimonial-carousel-next',
+            prevEl: '.testimonial-carousel-prev'
+          },
+          breakpoints: {
+            576: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1200: { slidesPerView: 3 }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
